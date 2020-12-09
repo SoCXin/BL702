@@ -1,28 +1,35 @@
-﻿# [nRF52840](https://github.com/sochub/nRF52840) 
-[![sites](SoC/qitas.png)](http://www.qitas.cn) 
-####  qitas@qitas.cn
-#### 归属：[cortex M4](https://github.com/sochub/CM4) 
-#### 父级：[nordic](https://github.com/sochub/NRF52) 
+﻿# [N32G457](https://github.com/SoCXin/N32G457)
 
-### [简介](https://github.com/sochub/nRF52840/wiki)
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-the most advanced member of the nRF52 Series SoC family. 
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[nationstech](https://www.nationstech.com/)
+#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M4](https://github.com/SoCXin/CM4)
+#### [Level](https://github.com/SoCXin/Level)：144 MHz x 1.25DMIPS/MHz
 
-* support for Bluetooth 5, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary stacks.
-
-* Cortex™-M4 CPU with floating point unit running at 64 MHz. 
-
-* NFC-A Tag for use in simplified pairing and payment solutions.
-
-* The ARM TrustZone® CryptoCell cryptographic unit
-
-* PDM and I2S for digital microphones and audio
- 
-* full speed USB device for data transfer and power supply for battery recharging.
- 
-[![sites](SoC/item.png)](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840) 
-[![sites](SoC/52840.png)](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840) 
-
-##  [SoC开发平台](http://www.qitas.cn)  
+[N32G457](https://github.com/SoCXin/N32G457) 集成高达512KB 片内FLASH，144KB SRAM，多达17个高性能模拟器件，18个数字通讯接口，同时集成10/100M以太网接口，数字摄像头接口，内置10余种密码算法硬件加速引擎，支持存储加密、用户分区保护、安全启动等多种安全特性。
 
 
+<!-- [![sites](docs/N32G457.png)](https://www.nationstech.com/N32G457/) -->
+
+#### 关键特性
+
+* 密码算法硬件加速器
+* DVP接口
+* OPAMP/COMP
+* SDIO接口
+* CAN接口
+* USB设备
+* 12bit ADC (4x22) + 12bit DAC (4x7)
+* I2S + I2C
+
+### [资源收录](https://github.com/SoCXin)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[N32G457](https://github.com/SoCXin/N32G457)
+
+###  [SoC.芯](http://www.SoC.Xin)

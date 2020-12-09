@@ -1,0 +1,16 @@
+{
+    "name":"N32G457",
+    "Core":"Cortex M4",
+    "Vendor":"nationstech",
+    "description":"Cortex M4 N32G457 MCU",
+    "keywords": [
+        "AES","DES","3DES","SM1","SM3","SM4","SM7","MD5","SHA1","SHA224","SHA256","CRC","TRANG",
+        "ADC","DAC","SDIO","CAN","USB","I2S","SPI",
+        "144MHz","180DMIPS",
+        "LQFP128","LQFP100","LQFP80","LQFP64",
+        "3.6V","1.8V"
+    ],
+    "url":"https://github.com/SoCXin/N32G457",
+    "homepage": "http://www.SoC.xin",
+    "version":"1.0.0"
+}
