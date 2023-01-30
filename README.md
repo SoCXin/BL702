@@ -1,35 +1,34 @@
-﻿# [N32G457](https://github.com/SoCXin/N32G457)
+﻿# [BL706](https://doc.soc.xin/BL706)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
+* [bouffalolab](http://www.bouffalolab.com/): [RISC-V](https://github.com/SoCXin/RISC-V)
+* [L2R2](https://github.com/SoCXin/Level): 144MHz , [￥6.6](https://item.szlcsc.com/3078666.html)
 
-#### [Vendor](https://github.com/SoCXin/Vendor) ：[nationstech](https://www.nationstech.com/)
-#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M4](https://github.com/SoCXin/CM4)
-#### [Level](https://github.com/SoCXin/Level)：144 MHz x 1.25DMIPS/MHz
+## [简介](https://github.com/SoCXin/BL706/wiki)
 
-[N32G457](https://github.com/SoCXin/N32G457) 集成高达512KB 片内FLASH，144KB SRAM，多达17个高性能模拟器件，18个数字通讯接口，同时集成10/100M以太网接口，数字摄像头接口，内置10余种密码算法硬件加速引擎，支持存储加密、用户分区保护、安全启动等多种安全特性。
+[BL706](https://www.bouffalolab.com/product/?type=list&category=21) 是用于物联网应用的高度集成的 BLE 和 zigbee 组合芯片组。
 
+无线子系统包含 2.4G 无线电，BLE + zigbee 基带和 MAC 设计。微控制器子系统包含 32 位 RISC CPU，高速缓存和内存。电源管理单元控制超低功耗模式。此外，还支持各种安全功能。
 
-<!-- [![sites](docs/N32G457.png)](https://www.nationstech.com/N32G457/) -->
+外围接口包括 USB2.0，Ethernet(BL704/BL706)，IR-remote，SPI，UART，ISO 17987，I2C，I2S，PWM，QDEC，KeyScan，ADC，DAC，PIR，Camera(BL706) 和 GPIO。
 
-#### 关键特性
+### 关键参数
 
-* 密码算法硬件加速器
-* DVP接口
-* OPAMP/COMP
-* SDIO接口
-* CAN接口
-* USB设备
-* 12bit ADC (4x22) + 12bit DAC (4x7)
-* I2S + I2C
+* 144MHz RISC-V Core 带FPU(1.46 DMIPS/MHz,3.1 CoreMark/MHz)
+* 132KB SRAM + PSRAM
+* USB2.0 FS
+* 以太网RMII接口
+* BLE v5.0,支持 BLE/zigbee 共存
+* ADC+DAC
+* I2C + I2S + SPI + UART
 
-### [资源收录](https://github.com/SoCXin)
+## [资源收录](https://github.com/SoCXin)
 
-* [参考文档](docs/)
 * [参考资源](src/)
+* [参考文档](docs/)
 * [参考工程](project/)
 
-### [选型建议](https://github.com/SoCXin)
+## [选型建议](https://github.com/SoCXin/BL706)
 
-[N32G457](https://github.com/SoCXin/N32G457)
+[BL702](https://item.szlcsc.com/3078665.html)和[BL706](https://item.szlcsc.com/3078666.html)的主要差异在封装，前者是QFN32，后者是QFN48
 
-###  [SoC.芯](http://www.SoC.Xin)
+## [www.SoC.xin](http://www.SoC.Xin)
